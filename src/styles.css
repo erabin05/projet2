@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+/* fonts */
+
+.font-title {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.04rem;
+    margin-bottom: 0.5rem;
+}
+
+.font-subtitle {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+
+* {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.6rem;
+    font-weight: 300;
+}
