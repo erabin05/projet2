@@ -10,6 +10,7 @@ html, body {
 
 .font-title {
     font-family: 'Libre Franklin', sans-serif;
+    text-transform: uppercase;
     font-size: 1rem;
     font-weight: 600;
     letter-spacing: 0.04rem;
@@ -18,7 +19,9 @@ html, body {
 
 .font-subtitle {
     font-family: 'Libre Franklin', sans-serif;
-    font-size: 1rem;
+    text-transform: uppercase;
+    font-size: 0.64rem;
+    letter-spacing: 0.05rem;
     font-weight: 500;
 }
 
@@ -26,6 +29,12 @@ html, body {
 
 * {
     font-family: 'Roboto Mono', monospace;
-    font-size: 0.6rem;
+    font-size: 0.5rem;
     font-weight: 300;
+}
+
+.hidden {
+    display: none;
+    width: Opx;
+    height: Opx;
 }
