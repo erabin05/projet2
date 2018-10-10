@@ -1,12 +1,16 @@
    /*Taille Zone*/
 .bigPicture{
        height:80vh;
-   }
-
+       background-image: url(../../assets/lune1.jpg) ; 
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+}
 .minPicture{
     height:20vh;
-
-    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   
 }
 .pageSize {
     width: 100%;
@@ -26,23 +30,40 @@
 .zoneContinue{
     height:20vh;
     background-color:#c9b097;
-    
+}
+.continueButtom{
+    padding-top:5vh;
 }
 /* image */
 .triangle{
     height:10vh;
     background-color:#c9b097;
-    background-image: url(../../assets/triangle.png) ; 
+    background-image: url(../../assets/triangle.png); 
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-  
+    background-size: cover;  
 }
+.thumb1{
+    background-image: url(../../assets/lune1.jpg); 
+}
+.thumb2{
+    background-image: url(../../assets/lune2.jpg); 
+}
+.thumb3{
+    background-image: url(../../assets/lune3.gif); 
+}
+.thumb4{
+    background-image: url(../../assets/lune4.jpeg); 
+}
+
 /* polices */
 
-.littleTextUppercase{
+/* .littleTextUppercase{
 font-variant: small-caps;
 font-size: 5rem;
+} */
+.continueArrow{
+    font-size: 1.7rem;
 }
 /* .zoneTexte{
     background-color:#c9b097; 
