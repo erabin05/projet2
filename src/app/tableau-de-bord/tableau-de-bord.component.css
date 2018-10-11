@@ -8,6 +8,7 @@
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
+    overflow-y: hidden;
     
 }
 
@@ -39,6 +40,8 @@
 
 .tableau-de-bord-img:hover {
     cursor: pointer;
+    transform: scale(1.02);
+    z-index: 1;
 }
 
 /* -- Planet Name -- */
@@ -56,6 +59,7 @@
 .tableau-de-bord-point-container {
     display: flex;
     flex-direction: row;
+    z-index: 2;
 }
 .tableau-de-bord-point{
     width: 2em;
@@ -71,8 +75,6 @@
     background: none;
     opacity: 0.8;
     border: solid #FFD45C 0.2em;
-    width: 1.6em;
-    height: 1.6em;
     transition: 0.2s;
 }
 .tableau-de-bord-point:hover >.tableau-de-bord-innerpoint {
@@ -111,9 +113,9 @@
 }
 .tableau-de-bord-info{
     position: absolute;
-    width: 30em;
+    width: 40em;
     padding:1.5em 0em 1em 5em;
-    border-top: #fff solid 2px;
+    border-top: #fff solid 1px;
     z-index: 3;
 }
 .tableau-de-bord-info-img-text {
@@ -281,6 +283,7 @@
 }
 #tableau-de-bord-saturne-info {
     padding-left: 13em;
+    width: 46em;
 }
 
 /* --- Titan --- */

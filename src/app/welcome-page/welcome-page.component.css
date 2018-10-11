@@ -120,6 +120,7 @@
 @media screen and (max-width:720px){
     #welcomePage-image-container { 
         margin: 0 auto;
+        margin-top: 10em;
         background-size: 18em;
         
     }

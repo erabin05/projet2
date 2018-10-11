@@ -36,9 +36,11 @@ import { TableauDeBordComponent } from './tableau-de-bord/tableau-de-bord.compon
 
     RouterModule.forRoot(
       [
-      { path: "niveau1", component: Niveau1PageComponent },
-      { path: "recompenseLune", component: RecompenseMoonComponent },
-      { path: "connectForm", component: ConnectFormComponent }
+      { path: "niveau1", component: Niveau1PageComponent, pathMatch:"full" },
+      { path: "recompenseLune", component: RecompenseMoonComponent, pathMatch:"full" },
+      { path: "welcome-page", component: WelcomePageComponent, pathMatch:"full" },
+      { path: "tableau-de-bord", component: TableauDeBordComponent, pathMatch:"full" },
+      { path: "", redirectTo:"welcome-page", pathMatch:"full"}
 
       ],
       

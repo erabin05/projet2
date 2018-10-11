@@ -14,23 +14,21 @@ export class Niveau1PageComponent implements OnInit {
 
   }
 
+ 
+
   ngOnInit() {
     const bonneReponse = document.getElementById("bonne-reponse");
     const boutonsReponse = document.getElementById ("boutons-reponses"); 
-    const affichelareponse = document.getElementById("AfficherReponse");  
+    const affichelareponse = document.getElementById("AfficherReponse"); 
+    const pageLune = document.getElementById("recompense-lune")
     
     bonneReponse.addEventListener("click", function() {
       boutonsReponse.classList.add("hidden");
       affichelareponse.classList.remove("hidden");
+      pageLune.classList.remove("hidden");
     });
 
-    const boutongetyourreward = document.getElementById("boutongetyourreward");
-    const pagelune = document.getElementById("recompenseLune");
-
-    boutongetyourreward.addEventListener("Click", function() {
-      pagelune.classList.remove("hidden");
-
-    });
+    
 
 
 
