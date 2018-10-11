@@ -22,13 +22,18 @@
                         </div> 
                     </div>
                     <div id="AfficherReponse" class="col-12 col-md-12 hidden">
-                        <div class="col-12 col-md-12 col-lg-12 d-flex justify-content-center mb-4 titlecolor pt-4 answerfontsize">Well done!
+                        <div class="col-12 col-md-12 col-lg-12 d-flex justify-content-center mb-4 titlecolor pt-4 font-subtitle">Well done!
                         </div> 
-                            <div class="col-12 col-md-12 col-lg-6 offset-lg-3 d-flex justify-content-center mb-4">
+                            <div id="boutongetyourreward" routerLink="recompenseLune" class="col-12 col-md-12 col-lg-6 offset-lg-3 d-flex justify-content-center mb-4">
+                                <a class="encrelune" href="#lune">
                                 <button type="button" class="btn bgcolor d-flex justify-content-center btn-block font-weight-bold fontbuttonsize font-subtitle">Get your reward</button>
+                            </a>
                             </div>
                     </div> 
                 </div>  
             </div>
     </div>
 </div>
+<!-- <a href="#/home" class="active">Home</a> -->
+<router-outlet id = "lune" class="active"></router-outlet> 
+<!-- <app-recompense-moon id ="recompenseLune" class="hidden"></app-recompense-moon> -->
