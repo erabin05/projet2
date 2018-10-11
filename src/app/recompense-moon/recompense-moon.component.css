@@ -1,7 +1,6 @@
    /*Taille Zone*/
 .bigPicture{
-       height:80vh;
-       background-image: url(../../assets/lune1.jpg) ; 
+       height:80vh; 
        background-repeat: no-repeat;
        background-position: center;
        background-size: cover;
@@ -43,7 +42,7 @@
     background-position: center;
     background-size: cover;  
 }
-.thumb1{
+/* .thumb1{
     background-image: url(../../assets/lune1.jpg); 
 }
 .thumb2{
@@ -54,11 +53,10 @@
 }
 .thumb4{
     background-image: url(../../assets/lune4.jpeg); 
-}
+} */
 
 /* polices */
 
 .continueArrow{
     font-size: 1.7rem;
 }
-
