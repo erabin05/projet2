@@ -13,6 +13,7 @@ import { Niveau1PageComponent } from './niveau1-page/niveau1-page.component';
 import { RecompenseMoonComponent } from './recompense-moon/recompense-moon.component';
 import { ConnectFormComponent } from './connect-form/connect-form.component';
 import { TableauDeBordComponent } from './tableau-de-bord/tableau-de-bord.component';
+import { PimpMySatelliteComponent } from './pimp-my-satellite/pimp-my-satellite.component';
 
 
 
@@ -26,6 +27,7 @@ import { TableauDeBordComponent } from './tableau-de-bord/tableau-de-bord.compon
     TableauDeBordComponent,
     Niveau1PageComponent,
     RecompenseMoonComponent,
+    PimpMySatelliteComponent,
   ],
   imports: [
     BrowserModule,
@@ -40,6 +42,7 @@ import { TableauDeBordComponent } from './tableau-de-bord/tableau-de-bord.compon
       { path: "recompenseLune", component: RecompenseMoonComponent, pathMatch:"full" },
       { path: "welcome-page", component: WelcomePageComponent, pathMatch:"full" },
       { path: "tableau-de-bord", component: TableauDeBordComponent, pathMatch:"full" },
+      { path: "pimp-my-satellite", component: PimpMySatelliteComponent, pathMatch:"full" },
       { path: "", redirectTo:"welcome-page", pathMatch:"full"}
 
       ],

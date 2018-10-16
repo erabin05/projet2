@@ -85,6 +85,7 @@
     width: 20em;
     align-self: flex-end;
     background-position: bottom;
+    background-image: url(./WelcomePageBackgrounds/Accueil_Background1.png);
 }
 
 .welcomePage-image-container1-1 {background-image: url(./WelcomePageBackgrounds/Accueil_Background1.png);}
@@ -96,7 +97,6 @@
 .welcomePage-image-container2 {
     height: 20em;
     width: 20em;
-    padding-bottom:20em;
     background-image: url(./WelcomePageBackgrounds/Logo.png);
     background-position: center;
 }
@@ -120,8 +120,9 @@
 @media screen and (max-width:720px){
     #welcomePage-image-container { 
         margin: 0 auto;
-        margin-top: 10em;
         background-size: 18em;
-        
+    }
+    .welcomePage-image-container2 {
+        margin-bottom: 10em;
     }
 }
