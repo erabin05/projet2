@@ -11,13 +11,14 @@ export class RecompenseMoonComponent implements OnInit {
 
   ngOnInit() {
     const bigImg= document.getElementById("bigImg");
+    const thumb2b= document.getElementById("thumb2b");
+    const thumb3b= document.getElementById("thumb3b");
+    const thumb4b= document.getElementById("thumb4b");
     const thumb1= document.getElementById("thumb1");
     const thumb2= document.getElementById("thumb2");
     const thumb3= document.getElementById("thumb3");
     const thumb4= document.getElementById("thumb4");
-    const thumb2b= document.getElementById("thumb2b");
-    const thumb3b= document.getElementById("thumb3b");
-    const thumb4b= document.getElementById("thumb4b");
+   
     
     thumb1.addEventListener("click", function() {
       bigImg.classList.remove("hidden");

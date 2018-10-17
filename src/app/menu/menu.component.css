@@ -1,0 +1,14 @@
+/* .bgcolor {
+    color: #FFD45C;
+} */
+.bar-background{
+    /* background-color: #ffffff; */
+    
+    width: 5%;
+}
+.icone{
+    height: 5vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}

@@ -13,6 +13,8 @@ import { Niveau1PageComponent } from './niveau1-page/niveau1-page.component';
 import { RecompenseMoonComponent } from './recompense-moon/recompense-moon.component';
 import { ConnectFormComponent } from './connect-form/connect-form.component';
 import { TableauDeBordComponent } from './tableau-de-bord/tableau-de-bord.component';
+import { MenuComponent } from './menu/menu.component';
+
 
 
 
@@ -26,6 +28,8 @@ import { TableauDeBordComponent } from './tableau-de-bord/tableau-de-bord.compon
     TableauDeBordComponent,
     Niveau1PageComponent,
     RecompenseMoonComponent,
+    MenuComponent,
+   
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,13 @@
+.col-menu {
+    width: 5VH;
+    height: 100vh;
+    /* position:absolute; */
+    background-color: rgb(255,255,255,0.1);
+    /* background-color:rgb(26,26,26);  */
+    
+    left:0;
+}
+.col-page {
+    width: 100%;
+    height: 100%;
+}
