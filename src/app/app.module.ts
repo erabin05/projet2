@@ -12,6 +12,8 @@ import { WelcomePageComponent } from './welcome-page/welcome-page.component';
 import { Niveau1PageComponent } from './niveau1-page/niveau1-page.component';
 import { RecompenseMoonComponent } from './recompense-moon/recompense-moon.component';
 import { ConnectFormComponent } from './connect-form/connect-form.component';
+import { Niveau2PageComponent } from './niveau2-page/niveau2-page.component';
+import { SolveHoustonProblemComponent } from './solve-houston-problem/solve-houston-problem.component';
 
 
 
@@ -24,6 +26,8 @@ import { ConnectFormComponent } from './connect-form/connect-form.component';
     ConnectFormComponent,
     Niveau1PageComponent,
     RecompenseMoonComponent,
+    Niveau2PageComponent,
+    SolveHoustonProblemComponent,
 
   ],
   imports: [
@@ -36,6 +40,8 @@ import { ConnectFormComponent } from './connect-form/connect-form.component';
     RouterModule.forRoot(
       [
       { path: "niveau1", component: Niveau1PageComponent },
+      { path: "niveau2", component: Niveau2PageComponent },
+      { path: "solvehouston", component: SolveHoustonProblemComponent },
       { path: "recompenseLune", component: RecompenseMoonComponent },
       { path: "connectForm", component: ConnectFormComponent }
 

@@ -24,13 +24,6 @@ export class Niveau1PageComponent implements OnInit {
       affichelareponse.classList.remove("hidden");
     });
 
-    const boutongetyourreward = document.getElementById("boutongetyourreward");
-    const pagelune = document.getElementById("recompenseLune");
-
-    boutongetyourreward.addEventListener("Click", function() {
-      pagelune.classList.remove("hidden");
-
-    });
 
 
 
