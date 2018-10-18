@@ -18,7 +18,7 @@ export class MenuComponent implements OnInit {
     const sattelite= document.getElementById("sattelite");
     const tableau= document.getElementById("tableau");
     const sattelite2= document.getElementById("sattelite2");
-    // const colmenu=AppComponent.getElementById("col-menu");
+    const bigMenu=document.getElementById("bigMenu");
   // je remplace le bouton burger par le bouton burger2 et j'affiche les icones et liens 
       burger.addEventListener("click", function() {
       burger.classList.add("hidden");
@@ -26,9 +26,8 @@ export class MenuComponent implements OnInit {
       connexion.classList.remove("hidden");
       sattelite.classList.remove("hidden");
       tableau.classList.remove("hidden");
-      sattelite2.classList.remove("hidden")
-      // colmenu.classList.remove("col-menu");
-      // colmenu.classList.add("col-menu2");
+      sattelite2.classList.remove("hidden");
+      bigMenu.classList.add("bigMenu");
     });
   // je remplace le bouton burger2 par le bouton burger et je masque les icones et liens
     burger2.addEventListener("click", function() {
@@ -38,6 +37,7 @@ export class MenuComponent implements OnInit {
       sattelite.classList.add("hidden");
       tableau.classList.add("hidden");
       sattelite2.classList.add("hidden");
+      bigMenu.classList.remove("bigMenu");
     });
   }
 

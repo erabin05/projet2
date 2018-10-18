@@ -7,7 +7,7 @@
     background-size: cover;
     background-color: rgb(255,255,255,0);
     border: 0px;
-     
+    cursor: pointer;    
 }
 
 .nav-a, .nav-a:visited, .nav-a:hover, .nav-a:focus, .nav-a:active  { 
@@ -19,5 +19,17 @@
     width: 25vh;
     display: inline-block;
     text-align: left;
- 
+    
+}
+.bigMenu{
+    background-color: rgb(26,26,26,0.9);
+    height:40vh;
+    transition-duration: 0.5s;
+    transition-timing-function:linear ;
+    transition-delay: 0s;  
+}
+#bigMenu{
+    padding-left: 2vh;
+    padding-top:3vh;
+   
 }
