@@ -1,23 +1,16 @@
-
 .icone{
     height: 5vh;
-    width: 5vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    width: 5vh; 
     background-color: rgb(255,255,255,0);
     border: 0px;
-     
+    
 }
-
 .nav-a, .nav-a:visited, .nav-a:hover, .nav-a:focus, .nav-a:active  { 
 	text-decoration:none; 
 }
 .lienNavBar {
     color: #FFD45C;
-    padding-left: 7vh;
-    width: 25vh;
-    display: inline-block;
-    text-align: left;
+    padding-left: 8vh;
+    
  
 }
