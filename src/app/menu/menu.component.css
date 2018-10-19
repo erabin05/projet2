@@ -1,7 +1,7 @@
 
 .icone{
-    height: 5vh;
-    width: 5vh;
+    height: 8vh;
+    width: 7vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -15,7 +15,7 @@
 }
 .lienNavBar {
     color: #FFD45C;
-    padding-left: 7vh;
+    padding-left: 12vh;
     width: 25vh;
     display: inline-block;
     text-align: left;
@@ -23,13 +23,13 @@
 }
 .bigMenu{
     background-color: rgb(26,26,26,0.9);
-    height:40vh;
+    height:100vh;
     transition-duration: 0.5s;
     transition-timing-function:linear ;
     transition-delay: 0s;  
 }
 #bigMenu{
-    padding-left: 2vh;
-    padding-top:3vh;
+    padding-left: 5vh;
+    padding-top:5vh;
    
 }
