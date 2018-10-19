@@ -14,6 +14,8 @@ import { RecompenseMoonComponent } from './recompense-moon/recompense-moon.compo
 import { ConnectFormComponent } from './connect-form/connect-form.component';
 import { TableauDeBordComponent } from './tableau-de-bord/tableau-de-bord.component';
 import { PimpMySatelliteComponent } from './pimp-my-satellite/pimp-my-satellite.component';
+import { MenuComponent } from './menu/menu.component';
+
 
 
 
@@ -28,6 +30,7 @@ import { PimpMySatelliteComponent } from './pimp-my-satellite/pimp-my-satellite.
     Niveau1PageComponent,
     RecompenseMoonComponent,
     PimpMySatelliteComponent,
+    MenuComponent  
   ],
   imports: [
     BrowserModule,
