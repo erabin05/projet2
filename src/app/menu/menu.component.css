@@ -1,4 +1,14 @@
 
+#burger {
+    z-index:4;
+}
+.Underit {
+    z-index:0;
+}
+.Onit{
+    z-index:2;
+}
+
 .icone{
     height: 5vh;
     width: 5vh;
@@ -23,7 +33,7 @@
 }
 .bigMenu{
     background-color: rgb(26,26,26,0.9);
-    height:40vh;
+    height:100vh;
     transition-duration: 0.5s;
     transition-timing-function:linear ;
     transition-delay: 0s;  

@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MenuExtendedComponent } from './menu-extended.component';
+import { SurmenuComponent } from './surmenu.component';
 
-describe('MenuExtendedComponent', () => {
-  let component: MenuExtendedComponent;
-  let fixture: ComponentFixture<MenuExtendedComponent>;
+describe('SurmenuComponent', () => {
+  let component: SurmenuComponent;
+  let fixture: ComponentFixture<SurmenuComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MenuExtendedComponent ]
+      declarations: [ SurmenuComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MenuExtendedComponent);
+    fixture = TestBed.createComponent(SurmenuComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

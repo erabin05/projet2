@@ -14,7 +14,7 @@ import { RecompenseMoonComponent } from './recompense-moon/recompense-moon.compo
 import { ConnectFormComponent } from './connect-form/connect-form.component';
 import { TableauDeBordComponent } from './tableau-de-bord/tableau-de-bord.component';
 import { MenuComponent } from './menu/menu.component';
-import { MenuExtendedComponent } from './menu-extended/menu-extended.component';
+import { SurmenuComponent } from './surmenu/surmenu.component';
 
 
 
@@ -30,7 +30,7 @@ import { MenuExtendedComponent } from './menu-extended/menu-extended.component';
     Niveau1PageComponent,
     RecompenseMoonComponent,
     MenuComponent,
-    MenuExtendedComponent,
+    SurmenuComponent,
    
   ],
   imports: [
