@@ -51,7 +51,6 @@ showMenu() {
   } else {
     bigMenu.classList.add("hidden");
     bigMenu.classList.remove("Onit");
-    bigMenu.classList.add("Underit");
     logo.classList.remove("logo")
   }
 }
