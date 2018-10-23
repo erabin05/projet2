@@ -42,16 +42,17 @@ export class MenuComponent implements OnInit {
   }
 
 showMenu() {
-  const burger=document.getElementById("burger");
   const bigMenu=document.getElementById("bigMenu");
+  const logo=document.getElementById("logo");
   if (bigMenu.classList.contains("hidden")){
     bigMenu.classList.remove("hidden");
-    bigMenu.classList.remove("Underit");
     bigMenu.classList.add("Onit");
+    logo.classList.add("logo")
   } else {
     bigMenu.classList.add("hidden");
     bigMenu.classList.remove("Onit");
     bigMenu.classList.add("Underit");
+    logo.classList.remove("logo")
   }
 }
 

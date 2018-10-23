@@ -1,25 +1,42 @@
 
 #burger {
-    z-index:4;
-}
-.Underit {
-    z-index:0;
-}
-.Onit{
     z-index:2;
+    margin-left: 2vh;
+    margin-top:3vh; 
+    position:fixed;  
+    top: 0;
+    left:0; 
+    overflow-x: hidden;
 }
-
+.logo{
+    background-color: rgb(26,26,26,0.9);  
+    }
+/* .Underit {
+    z-index:0;
+} */
+.Onit{
+    z-index:6;
+    height:100vh;
+    width: 40vh;
+    background-color: rgb(26,26,26,0.9);
+    transition-duration: 0.5s;
+    transition-timing-function:linear ;
+    transition-delay: 0s; 
+    padding-top: 15vh; 
+    padding-left:2vh; 
+}
 .icone{
     height: 5vh;
     width: 5vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-color: rgb(255,255,255,0);
+    background-color: rgb(26,26,26,0);
     border: 0px;
-    cursor: pointer;    
+    cursor: pointer; 
+    border: none;
+    outline: none;;   
 }
-
 .nav-a, .nav-a:visited, .nav-a:hover, .nav-a:focus, .nav-a:active  { 
 	text-decoration:none; 
 }
@@ -28,18 +45,94 @@
     padding-left: 7vh;
     width: 25vh;
     display: inline-block;
-    text-align: left;
-    
+    text-align: left;  
 }
-.bigMenu{
-    background-color: rgb(26,26,26,0.9);
-    height:100vh;
-    transition-duration: 0.5s;
-    transition-timing-function:linear ;
-    transition-delay: 0s;  
-}
-#bigMenu{
+
+/* .col-menu {
+    position:fixed;
+    width: 30vh;
+    top: 0;
+    left:0;
+    overflow-x: hidden;
+    height: 100vh;
+    background-color: rgb(255,255,255,0)
+} */
+/* .icone{
+    height: 5vh;
+    width: 5vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(255,255,255,0);
+    border: 0px;
+    cursor: pointer;    
+} */
+/* #burger{
+    padding-left: 2vh;
+    padding-top:3vh;
+    position:fixed;
+    background-color: rgb(255,255,255,0)
+} */
+
+
+
+
+/* #bigMenu{
     padding-left: 2vh;
     padding-top:3vh;
    
+} */
+/* avant */
+/* .col-menu {
+    position:fix    position:fixed;
+    width: 30vh;
+    top: 0;
+    left:0;
+    overflow-x: hidden;
+    height: 100vh;
+    background-color: rgb(255,255,255,0)
+    width: 30vh;    position:fixed;
+    width: 30vh;
+    top: 0;
+    left:0;
+    overflow-x: hidden;
+    height: 100vh;
+    background-color: rgb(255,255,255,0)
+    top: 0;
+    left:0;
+    overflow-x: hidden;
+    height: 100vh;
+    background-color: rgb(255,255,255,0)
+} */
+/* .icone{
+    height: 5vh;
+    width: 5vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(255,255,255,0);
+    border: 0px;
+    cursor: pointer;    
+} */
+/* #burger{
+    padding-left: 2vh;
+    padding-top:3vh;
+    position:fixed;
+    background-color: rgb(255,255,255,0)
+} */
+/* .col-page {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+} */
+    
+@media screen and (max-width:720px){
+    .col-menu {
+        width: 100vh;
+        top: 0;
+        left:0;
+        overflow-x: hidden; /* Disable horizontal scroll */
+        height: 40vh;
+        background-color: rgb(255,255,255,0)
+    }
 }
