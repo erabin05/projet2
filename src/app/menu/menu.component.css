@@ -21,6 +21,7 @@
     padding-top: 15vh; 
     padding-left:2vh; 
 }
+
 /* Pour tout les icones */
 .icone{
     height: 7vh;
@@ -42,10 +43,7 @@
     display: inline-block;
     text-align: left;  
 }
-#burger, .Onit{
-    transition: 1s;
-    position: fixed;  
-}
+
 
     /*Responsive pleine page version portable  */
 @media screen and (max-width:720px){
