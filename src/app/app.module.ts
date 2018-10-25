@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NasaAPIService } from './nasa-api.service';
 
 
 
@@ -21,7 +22,6 @@ import { PimpMySatelliteComponent } from './pimp-my-satellite/pimp-my-satellite.
 @NgModule({
   declarations: [
     AppComponent,
-
     WelcomePageComponent,
     ConnectFormComponent,
     TableauDeBordComponent,
@@ -50,7 +50,7 @@ import { PimpMySatelliteComponent } from './pimp-my-satellite/pimp-my-satellite.
       {useHash: true}
       )
   ],
-  providers: [],
+  providers: [NasaAPIService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -57,26 +57,11 @@ export class ConnectFormComponent implements OnInit {
       }
     });
 
+    
+    }
     // ------------------ Button --------------------------
-
-    const FormButton = document.getElementsByClassName("welcomePage-Forms-button");
-    const FormSatelliteName = document.getElementById("Satellite-name");
-    const FormEarthCoordonate = document.getElementById("Earth-coordonate");
-    const FormLaunchingCode = document.getElementById("Launching-code");
-
-    FormButton[0].addEventListener("click", function():void {
-      if ((<HTMLInputElement>FormSatelliteName).value == "") {
-        FormSatelliteName.classList.add("welcomePage-Form-false");
-        
-      } else if ((<HTMLInputElement>FormEarthCoordonate).value == ""){
-        FormEarthCoordonate.classList.add("welcomePage-Form-false");
-        
-      } else if ((<HTMLInputElement>FormLaunchingCode).value.length == 0){
-        FormLaunchingCode.classList.add("welcomePage-Form-false");
-        
-      }
-    });
-  }
+    
+ 
 
 }
 
