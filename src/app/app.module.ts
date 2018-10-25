@@ -15,6 +15,7 @@ import { ConnectFormComponent } from './connect-form/connect-form.component';
 import { TableauDeBordComponent } from './tableau-de-bord/tableau-de-bord.component';
 import { MenuComponent } from './menu/menu.component';
 import { SurmenuComponent } from './surmenu/surmenu.component';
+import { ConnexionAPIService } from './connexion-api.service';
 
 
 
@@ -53,7 +54,7 @@ import { SurmenuComponent } from './surmenu/surmenu.component';
       {useHash: true}
       )
   ],
-  providers: [],
+  providers: [ConnexionAPIService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

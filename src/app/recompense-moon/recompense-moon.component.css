@@ -12,6 +12,13 @@
     background-size: cover;
     cursor: pointer;   
 }
+.imgNasa{
+    height:20vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;   
+}
 .pageSize {
     width: 100%;
     min-height: 100%;
@@ -45,4 +52,10 @@
 }
 .continueArrow{
     font-size: 1.7rem;
+}
+#button{
+    border: 0px;
+    cursor: pointer; 
+    border: none;
+    outline: none;;
 }

@@ -1,54 +1,63 @@
-<div class="container-fluid pageSize no-gutters" >
+<div class="container-fluid pageSize no-gutters">
   <div class="row">
-    <div id="bigImg" class="col-12 col-sm-12 col-md-6  order-md-1 order-md-2 order-sm-1 order-1 bigPicture" style="background-image:url(../../assets/lune1.jpg)">
+    <div id="bigImg" class="col-12 col-sm-12 col-md-6  order-md-1 order-md-2 order-sm-1 order-1 bigPicture" [ngStyle]="{'background-image': 'url('+img[9]+')'}" >
     </div>
-    <div id="thumb2b" class="col-12 col-sm-12 col-md-6  order-md-1 order-md-2 order-sm-1 order-1 bigPicture hidden" style="background-image:url(../../assets/lune2.jpg)">
+    <div id="thumb2b" class="col-12 col-sm-12 col-md-6  order-md-1 order-md-2 order-sm-1 order-1 bigPicture hidden"
+    [ngStyle]="{'background-image': 'url('+img[10]+')'}">
     </div>
-    <div id="thumb3b" class="col-12 col-sm-12 col-md-6  order-md-1 order-md-2 order-sm-1 order-1 bigPicture hidden" style="background-image:url(../../assets/lune3.gif)">
+    <div id="thumb3b" class="col-12 col-sm-12 col-md-6  order-md-1 order-md-2 order-sm-1 order-1 bigPicture hidden"
+    [ngStyle]="{'background-image': 'url('+img[11]+')'}">
     </div>
-    <div id="thumb4b" class="col-12 col-sm-12 col-md-6  order-md-1 order-md-2 order-sm-1 order-1 bigPicture hidden" style="background-image:url(../../assets/lune6.jpg)">
+    <div id="thumb4b" class="col-12 col-sm-12 col-md-6  order-md-1 order-md-2 order-sm-1 order-1 bigPicture hidden"
+    [ngStyle]="{'background-image': 'url('+img[12]+')'}">
     </div>
     <div class="col-12 col-sm-12 col-md-6 order-md-2 zoneText">
       <div class="row">
         <div class="offset-7 col-2 triangle"></div>
       </div>
       <div class="row">
-          <div class="offset-1 col-10 font-title"><H5>THE MOON</H5>
-          </div>
+        <div class="offset-1 col-10 font-title">
+          <H5>THE {{travelInfo.name}}</H5>
+        </div>
       </div>
       <div class="row">
-          <div class="font-subtitle offset-1 col-10"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-          </div>
+        <div class="font-subtitle offset-1 col-10">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+            fugiat nulla pariatur.</p>
+        </div>
       </div>
       <div class="row">
-          <div class="font-subtitle offset-1 col-10">
-            <p>Donnée : 2566252556°</p>
-            <p>Donnée : 2566252556°</p>
-            <p>Donnée : 2566252556°</p>
-            <p>Donnée : 2566252556°</p>
-            <p>Donnée : 2566252556°</p>
-          </div>
+        <div class="font-subtitle offset-1 col-10">
+          <p>Donnée : 2566252556°</p>
+          <p>Donnée : 2566252556°</p>
+          <p>Donnée : 2566252556°</p>
+          <p>Donnée : 2566252556°</p>
+          <p>Donnée : 2566252556°</p>
+        </div>
       </div>
     </div>
   </div>
   <div class="row">
     <div class="  col-12 col-sm-12 col-md-6">
       <div class="row">
-        <button type="button" ng-click=displayPics() class="col-6 col-sm-3 col-md-3 minPicture" id="thumb1" style="background-image: url(../../assets/lune1.jpg);">
+        <button  type="button" ng-click=displayPics() class="col-6 col-sm-3 col-md-3 minPicture" id="thumb1" [ngStyle]="{'background-image': 'url('+img[9]+')'}">
         </button>
-        <button type="button" ng-click=displayPics() class="col-6 col-sm-3 col-md-3 minPicture" id="thumb2" style="background-image: url(../../assets/lune2.jpg);">
-        </button> 
-        <button type="button" ng-click=displayPics() class="col-6 col-sm-3 col-md-3 minPicture" id="thumb3" style="background-image: url(../../assets/lune3.gif);">
+        <button type="button" ng-click=displayPics() class="col-6 col-sm-3 col-md-3 minPicture" id="thumb2" [ngStyle]="{'background-image': 'url('+img[10]+')'}">
         </button>
-        <button type="button" ng-click=displayPics() class="col-6 col-sm-3 col-md-3 minPicture" id="thumb4" style="background-image: url(../../assets/lune6.jpg);">
+        <button type="button" ng-click=displayPics() class="col-6 col-sm-3 col-md-3 minPicture" id="thumb3" [ngStyle]="{'background-image': 'url('+img[11]+')'}">
+        </button>
+        <button type="button" ng-click=displayPics() class="col-6 col-sm-3 col-md-3 minPicture" id="thumb4" [ngStyle]="{'background-image': 'url('+img[12]+')'}">
         </button>
       </div>
-      </div>
-      <div class="col-12 col-sm-12 col-md-6 zoneContinue">
-        <div class="row">
-          <div class="col-sm-12 offset-md-5 col-md-5 offset-lg-7 col-lg-5 font-title continueButtom"><H5 style="white-space: nowrap;">CONTINUE <span class="continueArrow">▶</span></H5>
-          </div>
+    </div>
+    <div class="col-12 col-sm-12 col-md-6 zoneContinue">
+      <div class="row">
+        <div class="col-sm-12 offset-md-5 col-md-5 offset-lg-7 col-lg-5 font-title continueButtom">
+          <H5 id="button" routerLink="tableau-de-bord" class="lienNavBar nav-a" style="white-space: nowrap;">CONTINUE <span class="continueArrow">▶</span></H5>
         </div>
       </div>
+    </div>
   </div>
 </div>
