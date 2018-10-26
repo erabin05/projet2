@@ -44,8 +44,6 @@ body {
   width: Opx;
   height: Opx;
 }
-<<<<<<< HEAD
-=======
 
 .no-gutters {
     margin-right: 0;
@@ -54,4 +52,3 @@ body {
 .nav-a, .nav-a:visited, .nav-a:hover, .nav-a:focus, .nav-a:active  { 
 	text-decoration:none; 
 }
->>>>>>> origin/menuBis
