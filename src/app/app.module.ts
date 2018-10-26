@@ -19,6 +19,9 @@ import { ErrorComponent } from './error/error.component';
 import { Niveau2PageComponent } from './niveau2-page/niveau2-page.component';
 import { SolveHoustonProblemComponent } from './solve-houston-problem/solve-houston-problem.component';
 import { FixedBugComponent } from './fixed-bug/fixed-bug.component';
+import { MenuComponent } from './menu/menu.component';
+import { SurmenuComponent } from './surmenu/surmenu.component';
+import { ConnexionAPIService } from './connexion-api.service';
 
 
 
@@ -36,7 +39,9 @@ import { FixedBugComponent } from './fixed-bug/fixed-bug.component';
     ErrorComponent,
     Niveau2PageComponent,
     SolveHoustonProblemComponent,
-    FixedBugComponent
+    FixedBugComponent,
+    MenuComponent,
+    SurmenuComponent,
   ],
   imports: [
     BrowserModule,
@@ -66,7 +71,7 @@ import { FixedBugComponent } from './fixed-bug/fixed-bug.component';
       {useHash: true}
       )
   ],
-  providers: [NasaAPIService],
+  providers: [NasaAPIService,ConnexionAPIService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

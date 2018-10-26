@@ -1,7 +1,6 @@
    /*Taille Zone*/
 .bigPicture{
-       height:80vh;
-       background-image: url(../../assets/lune1.jpg) ; 
+       height:80vh; 
        background-repeat: no-repeat;
        background-position: center;
        background-size: cover;
@@ -10,7 +9,15 @@
     height:20vh;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;   
+    background-size: cover;
+    cursor: pointer;   
+}
+.imgNasa{
+    height:20vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;   
 }
 .pageSize {
     width: 100%;
@@ -43,22 +50,12 @@
     background-position: center;
     background-size: cover;  
 }
-.thumb1{
-    background-image: url(../../assets/lune1.jpg); 
-}
-.thumb2{
-    background-image: url(../../assets/lune2.jpg); 
-}
-.thumb3{
-    background-image: url(../../assets/lune3.gif); 
-}
-.thumb4{
-    background-image: url(../../assets/lune4.jpeg); 
-}
-
-/* polices */
-
 .continueArrow{
     font-size: 1.7rem;
 }
-
+#button{
+    border: 0px;
+    cursor: pointer; 
+    border: none;
+    outline: none;;
+}
