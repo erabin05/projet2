@@ -12,4 +12,8 @@ export class Niveau2PageComponent implements OnInit {
   ngOnInit() {
   }
 
+  moveToHouston() {
+    const houstonPage = document.getElementById("houston-page");
+    houstonPage.classList.remove("hidden");
+  }
 }

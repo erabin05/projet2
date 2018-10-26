@@ -18,6 +18,7 @@ import { PimpMySatelliteComponent } from './pimp-my-satellite/pimp-my-satellite.
 import { ErrorComponent } from './error/error.component';
 import { Niveau2PageComponent } from './niveau2-page/niveau2-page.component';
 import { SolveHoustonProblemComponent } from './solve-houston-problem/solve-houston-problem.component';
+import { FixedBugComponent } from './fixed-bug/fixed-bug.component';
 
 
 
@@ -35,6 +36,7 @@ import { SolveHoustonProblemComponent } from './solve-houston-problem/solve-hous
     ErrorComponent,
     Niveau2PageComponent,
     SolveHoustonProblemComponent,
+    FixedBugComponent
   ],
   imports: [
     BrowserModule,
@@ -54,7 +56,10 @@ import { SolveHoustonProblemComponent } from './solve-houston-problem/solve-hous
       { path: "niveau1", component: Niveau1PageComponent , pathMatch:"full"},
       { path: "niveau2", component: Niveau2PageComponent , pathMatch:"full"},
       { path: "recompenseLune", component: RecompenseMoonComponent, pathMatch:"full" },
+      { path: "solvehouston", component: SolveHoustonProblemComponent },
+      { path: "fixedBug", component: FixedBugComponent },
       { path: "", redirectTo:"welcome-page", pathMatch:"full"}
+
 
       ],
       

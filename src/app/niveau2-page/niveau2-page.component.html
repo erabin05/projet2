@@ -11,20 +11,13 @@
                   </div>
                   <div id="boutons-reponses" class="col-12 col-md-12 col-lg-4 offset-lg-8"> 
                       <div class="mb-3">
-                          <button type="button" class="btn bgcolor btn-block font-weight-bold fontbuttonsize font-subtitle">Go to solve</button>
+                            <a class="encrebug" href="#houston-page">
+                          <button type="button" (click)="moveToHouston()" class="btn bgcolor btn-block font-weight-bold fontbuttonsize font-subtitle">Go to solve</button>
+                          </a>
                       </div>
                   </div>
-                  <div id="AfficherReponse" class="col-12 col-md-12 hidden">
-                      <div class="col-12 col-md-12 col-lg-12    mb-4 titlecolor pt-4 font-subtitle">Well done!
-                      </div> 
-                          <div id="boutongetyourreward" routerLink="recompenseLune" class="col-12 col-md-12 col-lg-6 offset-lg-3    mb-4">
-                              <a class="encrelune" href="#lune">
-                              <button type="button" class="btn bgcolor    btn-block font-weight-bold fontbuttonsize font-subtitle">Get your reward</button>
-                          </a>
-                          </div>
-                  </div>      
+             
           </div>
   </div>
 </div>
-
-<router-outlet id = "lune"></router-outlet> 
+<app-solve-houston-problem id="houston-page" class="hidden"></app-solve-houston-problem>
