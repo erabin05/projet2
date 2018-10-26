@@ -16,6 +16,9 @@ import { ConnectFormComponent } from './connect-form/connect-form.component';
 import { TableauDeBordComponent } from './tableau-de-bord/tableau-de-bord.component';
 import { PimpMySatelliteComponent } from './pimp-my-satellite/pimp-my-satellite.component';
 import { ErrorComponent } from './error/error.component';
+import { Niveau2PageComponent } from './niveau2-page/niveau2-page.component';
+import { SolveHoustonProblemComponent } from './solve-houston-problem/solve-houston-problem.component';
+
 
 
 
@@ -30,6 +33,8 @@ import { ErrorComponent } from './error/error.component';
     RecompenseMoonComponent,
     PimpMySatelliteComponent,
     ErrorComponent,
+    Niveau2PageComponent,
+    SolveHoustonProblemComponent,
   ],
   imports: [
     BrowserModule,
@@ -40,12 +45,15 @@ import { ErrorComponent } from './error/error.component';
 
     RouterModule.forRoot(
       [
+
       { path: "niveau1", component: Niveau1PageComponent, pathMatch:"full" },
-      { path: "recompenseLune", component: RecompenseMoonComponent, pathMatch:"full" },
       { path: "welcome-page", component: WelcomePageComponent, pathMatch:"full" },
       { path: "tableau-de-bord", component: TableauDeBordComponent, pathMatch:"full" },
       { path: "pimp-my-satellite", component: PimpMySatelliteComponent, pathMatch:"full" },
       { path: "loser", component: ErrorComponent, pathMatch:"full" },
+      { path: "niveau1", component: Niveau1PageComponent , pathMatch:"full"},
+      { path: "niveau2", component: Niveau2PageComponent , pathMatch:"full"},
+      { path: "recompenseLune", component: RecompenseMoonComponent, pathMatch:"full" },
       { path: "", redirectTo:"welcome-page", pathMatch:"full"}
 
       ],

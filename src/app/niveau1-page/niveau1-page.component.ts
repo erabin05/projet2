@@ -28,10 +28,6 @@ export class Niveau1PageComponent implements OnInit {
       pageLune.classList.remove("hidden");
     });
 
-    
-
-
-
   }
 
   
