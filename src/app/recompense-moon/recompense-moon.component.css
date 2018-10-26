@@ -10,7 +10,17 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    cursor: pointer;   
+    cursor: pointer;
+    border:none;  
+}
+.minPicture:hover{
+    opacity:0.8;
+}
+.minPicture:active{
+    opacity:0.6;
+}
+.minPicture:focus{
+    outline: none;
 }
 .imgNasa{
     height:20vh;
@@ -57,5 +67,14 @@
     border: 0px;
     cursor: pointer; 
     border: none;
-    outline: none;;
+    outline: none;
+    background-color: #000;
+    color:#c9b097;
+    padding-left:10%;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-right:10%;
+}
+#button:active{
+    opacity:0.7;
 }

@@ -22,6 +22,7 @@ import { FixedBugComponent } from './fixed-bug/fixed-bug.component';
 import { MenuComponent } from './menu/menu.component';
 import { SurmenuComponent } from './surmenu/surmenu.component';
 import { ConnexionAPIService } from './connexion-api.service';
+import { PageTeaserComponent } from './page-teaser/page-teaser.component';
 
 
 
@@ -42,6 +43,7 @@ import { ConnexionAPIService } from './connexion-api.service';
     FixedBugComponent,
     MenuComponent,
     SurmenuComponent,
+    PageTeaserComponent,
   ],
   imports: [
     BrowserModule,
@@ -63,6 +65,7 @@ import { ConnexionAPIService } from './connexion-api.service';
       { path: "recompenseLune", component: RecompenseMoonComponent, pathMatch:"full" },
       { path: "solvehouston", component: SolveHoustonProblemComponent },
       { path: "fixedBug", component: FixedBugComponent },
+      { path: "we-ll-be-back", component: PageTeaserComponent },
       { path: "", redirectTo:"welcome-page", pathMatch:"full"}
 
 
