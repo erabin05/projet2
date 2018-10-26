@@ -14,6 +14,7 @@ import { RecompenseMoonComponent } from './recompense-moon/recompense-moon.compo
 import { ConnectFormComponent } from './connect-form/connect-form.component';
 import { Niveau2PageComponent } from './niveau2-page/niveau2-page.component';
 import { SolveHoustonProblemComponent } from './solve-houston-problem/solve-houston-problem.component';
+import { FixedBugComponent } from './fixed-bug/fixed-bug.component';
 
 
 
@@ -28,6 +29,7 @@ import { SolveHoustonProblemComponent } from './solve-houston-problem/solve-hous
     RecompenseMoonComponent,
     Niveau2PageComponent,
     SolveHoustonProblemComponent,
+    FixedBugComponent,
 
   ],
   imports: [
@@ -43,7 +45,8 @@ import { SolveHoustonProblemComponent } from './solve-houston-problem/solve-hous
       { path: "niveau2", component: Niveau2PageComponent },
       { path: "solvehouston", component: SolveHoustonProblemComponent },
       { path: "recompenseLune", component: RecompenseMoonComponent },
-      { path: "connectForm", component: ConnectFormComponent }
+      { path: "connectForm", component: ConnectFormComponent },
+      { path: "fixedBug", component: FixedBugComponent }
 
       ],
       
