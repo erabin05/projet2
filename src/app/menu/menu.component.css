@@ -21,14 +21,39 @@
     padding-top: 15vh; 
     padding-left:2vh; 
 }
-
-/* Pour tout les icones */
-.icone{
-    height: 7vh;
-    width: 7vh;
+/* Pour icone menu */
+.icone2{
+    height: 9vh;
+    width: 9vh;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    background-color: rgb(26,26,26,0);
+    border: 0px;
+    cursor: pointer; 
+    border: none;
+    outline: none;   
+}
+/* Pour tout les icones */
+.icone{
+    height: 8vh;
+    width: 4vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: rgb(26,26,26,0);
+    border: 0px;
+    cursor: pointer; 
+    border: none;
+    outline: none;;   
+}
+
+.icone3{
+    height: 8vh;
+    width: 6vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     background-color: rgb(26,26,26,0);
     border: 0px;
     cursor: pointer; 
